@@ -1,0 +1,132 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: #f6f6f6;
+    width: 320px;
+    height: 680px;
+    border-radius: 28px;
+    box-shadow: 0px 56px 72px -30px rgba(50, 55, 63, 0.46);
+    padding: 20px;
+}
+
+.container img {
+    position: absolute;
+    height: 350px;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+}
+
+.container .menu,
+.container .profile {
+    position: absolute;
+    font-size: 24px;
+    top: 30px;
+}
+
+.container .menu {
+    left: -100px;
+}
+
+.container .profile {
+    right: -100px;
+}
+
+.container h1 {
+    position: absolute;
+    bottom: -10%; 
+    
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: #313942;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .container p {
+    width: 260px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #535c68;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.container .more {
+    background-color: #17202c;
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.container .more i {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-button {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.473);
+    position: absolute;
+    left: 35px;
+    bottom: -25%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    z-index: 100;
+    
+}
+
+.container .jordan2 {
+    position: absolute;
+    left: 200%;
+    top: -13%;
+    transform: translate(-50%);
+    z-index: -2;
+    
+}
+h2 {
+    position: absolute;
+    top: 38%;
+    left: -60%;
+    transform: translate(-50%);
+    width: 100%;
+    color: #FFF;
+}
+.summary {
+    position: absolute;
+    top: 50%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.summary-2 {
+    position: absolute;
+    top: 70%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
